@@ -1,0 +1,29 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: 'test'
+  description: 'test'
+# Added by API Auto Mocking Plugin
+host: virtserver.swaggerhub.com
+basePath: /Mork2393/api-description.yml/1.0
+# schemes:
+#  - http
+paths: 
+  /:
+    get:
+      produces:
+        - application/json
+      responses:
+        200:
+          description: ""
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+            required:
+              - message
+# Added by API Auto Mocking Plugin
+schemes:
+ - https
+ - http
