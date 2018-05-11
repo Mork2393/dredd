@@ -12,7 +12,7 @@ paths:
   /:
     get:
       produces:
-        - application/json; charset=utf-8
+        - application/json
       responses:
         200:
           description: ""
@@ -23,7 +23,3 @@ paths:
                 type: string
             required:
               - message
-# Added by API Auto Mocking Plugin
-schemes:
- - https
- - http
